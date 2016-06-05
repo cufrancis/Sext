@@ -1,8 +1,14 @@
-</section>
+<?php if (!defined('__TYPECHO_ROOT_DIR__')) exit; ?>
 
-        </article>
-         <div id="copy">&copy; Powered by Typecho | Themed by <a href="http://gryu.net/sext-ii.html" title="Scor Gryu">Gryu</a> and <a href="http://lhzhang.com" title="sext ii">sext ii</a></div>
-      </div>
-    </div> <!--! end of #container -->
-  </body>
+        </div><!-- end .row -->
+    </div>
+</div><!-- end #body -->
+
+<footer id="footer" role="contentinfo">
+    &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.
+    <?php _e('由 <a href="http://www.typecho.org">Typecho</a> 强力驱动'); ?>.
+</footer><!-- end #footer -->
+
+<?php $this->footer(); ?>
+</body>
 </html>
