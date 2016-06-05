@@ -1,10 +1,10 @@
 <?php
 /**
- * 这是 Typecho 0.9 系统的一套默认皮肤
- * 
- * @package Typecho Replica Theme 
- * @author Typecho Team
- * @version 1.2
+ * 这是 基于Typecho默认皮肤的二次开发模板
+ *
+ * @package Sext
+ * @author Cufrancis
+ * @version 1.0
  * @link http://typecho.org
  */
 
