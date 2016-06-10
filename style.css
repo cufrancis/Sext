@@ -9,7 +9,8 @@ body {
   font-size:14px;
   /*font-family:"Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;*/
   font-family: "Comic Sans MS", "Helvetica", "lucida grande", "lucida sans unicode", "lucida", "Hiragino Sans GB", "Microsoft JHengHei", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  color:#000000;
+  /*color:#000000;*/
+  color: #333;
   background-color:#ffffff;
 }
 *{padding:0;margin: 0;border:none;outline:none;}
