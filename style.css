@@ -22,8 +22,14 @@ p, ul, ol {
   line-height: 30px;
   padding:.7em 0;
 }
-li{padding:.2em 0;}
-ol,ul{list-style-position:inside;}
+li {
+  padding:.2em 0;
+}
+ol,ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  list-style-position:inside;
+}
 pre code{margin:1em 0;font-size:13px;font-family:Menlo,monospace;line-height:1.6;display:block;overflow:auto;}
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
